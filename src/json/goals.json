@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Dream Recall",
+        "imageSrc": "/images/dreamrecall.jpg",
+        "altText": "Staircases in a dream landscape"
+    },
+    {
+        "name": "Self Understanding",
+        "imageSrc": "/images/selfunderstanding.jpg",
+        "altText": "Layers suggesting plants in a human shape"
+    },
+    {
+        "name": "Creativity",
+        "imageSrc": "/images/creativity.jpg",
+        "altText": "Staircases in a dream landscape"
+    },
+    {
+        "name": "Exploration",
+        "imageSrc": "/images/exploration.jpg",
+        "altText": "Layers suggesting plants in a human shape"
+    },
+    {
+        "name": "Lucid Dreaming",
+        "imageSrc": "/images/luciddreaming.jpg",
+        "altText": "Staircases in a dream landscape"
+    },
+    {
+        "name": "Better Sleep",
+        "imageSrc": "/images/bettersleep.jpg",
+        "altText": "Layers suggesting plants in a human shape"
+    }
+]

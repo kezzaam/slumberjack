@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --heatherindigo: #2D2643;
+  --pastelindigo: #8686AF;
+  --englishlavender: #AF869B;
+  --sage: #AFAF86;
+  --morningblue: #86AF9B;
+  --glossygrape: #A986AF;
+  --grullo: #AF9D86;
+  --pewterblue: #86A9AF;
+  --pastelgrey: #D2D9BC;
+  --alabaster: #EDF0E4;
+  --gradient: linear-gradient(90deg, #86A9AF, #8686AF);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --heatherindigo: #2D2643;
+    --pastelindigo: #8686AF;
+    --englishlavender: #AF869B;
+    --sage: #AFAF86;
+    --morningblue: #86AF9B;
+    --glossygrape: #A986AF;
+    --grullo: #AF9D86;
+    --pewterblue: #86A9AF;
+    --pastelgrey: #D2D9BC;
+    --alabaster: #EDF0E4;
+    --gradient: linear-gradient(90deg, #86A9AF, #8686AF);
+  }
+}
+
+body {
+  color: var(--pastelindigo);
+  /* background image needs to be changed by state later */
+  /* background-image: url("../../public/images/luciddreaming.jpg"); */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.overlay {
+  background: color-mix(in srgb, var(--heatherindigo) 70%, transparent);
+}
+
+.solid {
+  background-color: var(--heatherindigo);
+}
+
+.pewterblue {
+  color: var(--pewterblue);
+}
+
+h2 {
+  color: var(--alabaster);
+}
+
+h3 {
+  color: var(--englishlavender);
+}
+
+h4 {
+  color: var(--alabaster);
+}
+
+a {
+  color: var(--englishlavender);
+}
+
+a:hover {
+  color: var(--sage);
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid var(--pastelindigo);
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.goal:hover {
+  border: 5px solid var(--alabaster);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer button:hover {
+  transform: scale(120%);
+  transition-duration: 500;
+  color: var(--pastelindigo)
+}
+
+.add-dream:hover {
+  color: var(--englishlavender)
+}
+
+.tag {
+  font-size: 14px;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

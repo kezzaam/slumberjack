@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Golden city",
+      "date": "2023-06-17",
+      "image": "/images/goldencity.jpg",
+      "description": "",
+      "audio": [""],
+      "moon": "",
+      "type": "",
+      "lucidity":"",
+      "emotion": "",
+      "theme": "",
+      "medication": ""
+    },
+    {
+      "id": 2,
+      "title": "In a pool with penguins",
+      "date": "2023-06-10",
+      "image": "/images/penguins.jpg",
+      "description": "",
+      "audio": [""],
+      "moon": "",
+      "type": "",
+      "lucidity":"",
+      "emotion": "",
+      "theme": "",
+      "medication": ""
+    },
+    {
+      "id": 3,
+      "title": "David Bowie and Tilda Swinton",
+      "date": "2023-05-01",
+      "image": "/images/bowieswinton.jpg",
+      "description": "",
+      "audio": [""],
+      "moon": "",
+      "type": "",
+      "lucidity":"",
+      "emotion": "",
+      "theme": "",
+      "medication": ""
+    },
+    {
+      "id": 4,
+      "title": "Fist bumped an alien",
+      "date": "2023-01-05",
+      "image": "/images/aliens.jpg",
+      "description": "",
+      "audio": [""],
+      "moon": "",
+      "type": "",
+      "lucidity":"",
+      "emotion": "",
+      "theme": "",
+      "medication": ""
+    }
+  ]
+  
